@@ -1,0 +1,213 @@
+.Header{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+}
+
+@media screen and (max-width: 1080px){
+  .Header{
+    background-color: white;
+    z-index: 10;
+    position: fixed !important
+  }
+}
+
+.HeaderContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 36px;
+  margin-left: 36px;
+  position: relative;
+}
+
+.HeaderLogo_image{
+  display: block;
+  height: 20px;
+  width: auto;
+}
+
+.HeaderContainer>:last-child {
+  display: inline-flex;
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger_line:first-child{
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger_line{
+    position: absolute;
+    display: block;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger_line:last-child {
+    top: 100%;
+  }
+}
+
+.HeaderNavList{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+}
+
+.HeaderNavListItem{
+  margin-right: 45px;
+}
+
+.HeaderNavListItem_link{
+  display: block;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.HeaderNavListItem_link>span{
+  display: block;
+  text-align: center;
+}
+
+.HeaderNavListItem_link>span:last-child{
+  font-size: 10px;
+}
+
+.HeaderNavListItem:last-of-type{
+  margin-right: 0;
+}
+
+.HeaderNavListItem_button{
+  align-items: center;
+  background-color: orange;
+  border-radius: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  height: 40px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1080px){
+  main{
+    padding-top: 60px;
+  }
+}
+
+main{
+  display: block;
+}
+
+.FirstView{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+}
+
+.FirstView_main-image{
+  width: 100%;
+  vertical-align: middle;
+  display: none;
+}
+
+.FirstView_container{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.FirstViewContent{
+  margin-bottom: 70px;
+  width: fit-content;
+}
+
+.FirstViewContent_title{
+  color: black;
+  font-size: 38px;
+  line-height: 54px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.FirstViewContent_images img{
+  margin-right: 8px;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.FirstViewContent_buttons{
+  display: flex;
+}
+
+.FirstViewContent_buttons a:first-of-type {
+  margin-right: 15px;
+  width: 306px;
+}
+
+.FirstViewContent_buttons a {
+  align-items: center;
+  background-color: orange;
+  border-radius: 38px;
+  color: #fff;
+  display: flex;
+  font-size: 16px;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.FirstViewContent_buttons a:last-of-type {
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  color: black;
+  width: 176px;
+}
+
+.FirstViewCaption {
+  color: #A2A2A4;
+  font-size: 12px;
+}
+
+p{
+  line-height: 1.5;
+}
+
+.FirstViewCaption a {
+  color: #A2A2A4;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
